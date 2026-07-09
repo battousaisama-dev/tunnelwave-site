@@ -3,33 +3,174 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tunnelwave</title>
-  <meta name="description" content="Tunnelwave is a neon one-touch first-person arcade runner.">
+  <title>BattouGames | Independent Game Developer</title>
+  <meta name="description" content="BattouGames is an independent game developer building modern games and software with Unity, Unreal Engine, and AI.">
+  <meta name="theme-color" content="#080b11">
+  <link rel="canonical" href="https://battougames.com/">
+  <link rel="icon" type="image/png" href="assets/tunnelwave-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BattouGames | Independent Game Developer">
+  <meta property="og:description" content="Modern indie games, interactive systems, and AI-assisted software.">
+  <meta property="og:url" content="https://battougames.com/">
+  <meta property="og:image" content="https://battougames.com/assets/battougames-hero.png">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="page">
-    <section class="hero">
-      <div class="hero__glow"></div>
-      <div class="hero__content">
-        <p class="eyebrow">One-touch neon arcade runner</p>
-        <h1>Tunnelwave</h1>
-        <p class="lede">Ride a neon tunnel wave, dodge shifting gates, grab risky boosts, and chase one more run.</p>
-        <div class="links">
-          <a href="privacy.html">Privacy Policy</a>
-          <a href="support.html">Support</a>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="BattouGames home">
+      <span class="brand__mark" aria-hidden="true">B</span>
+      <span>BattouGames</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#games">Games</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="studio-hero" id="home">
+      <img class="studio-hero__image" src="assets/battougames-hero.png" alt="" fetchpriority="high">
+      <div class="studio-hero__shade"></div>
+      <div class="studio-hero__content">
+        <p class="eyebrow">Independent game developer</p>
+        <h1>BattouGames</h1>
+        <p class="hero-copy">Building modern indie games with Unity, Unreal Engine, and AI.</p>
+        <div class="actions">
+          <a class="button button--primary" href="https://play.google.com/store/apps/details?id=com.battougames.tunnelwave&amp;pli=1">Play Tunnelwave</a>
+          <a class="button button--secondary" href="#games">Explore projects</a>
         </div>
+      </div>
+      <a class="hero-next" href="#games">Published now: Tunnelwave</a>
+    </section>
+
+    <section class="section section--games" id="games">
+      <div class="section-heading">
+        <p class="eyebrow">Games</p>
+        <h2>Built to be played</h2>
+        <p>Released work and the projects currently taking shape.</p>
+      </div>
+
+      <article class="featured-game">
+        <div class="featured-game__media">
+          <img src="assets/tunnelwave-feature.png" alt="Tunnelwave title inside a neon tunnel" loading="lazy">
+        </div>
+        <div class="featured-game__body">
+          <div class="project-meta">
+            <span class="status status--live">Published</span>
+            <span>Solo developer</span>
+          </div>
+          <h3>Tunnelwave</h3>
+          <p>A one-touch first-person arcade runner built around precision, escalating speed, risky multiplier gates, and repeatable high-score runs.</p>
+          <ul class="fact-list" aria-label="Tunnelwave technologies">
+            <li>Unity</li>
+            <li>C#</li>
+            <li>Android</li>
+            <li>Google Play</li>
+          </ul>
+          <div class="inline-links">
+            <a href="https://play.google.com/store/apps/details?id=com.battougames.tunnelwave&amp;pli=1">View on Google Play</a>
+            <a href="support.html">Support</a>
+          </div>
+        </div>
+      </article>
+
+      <div class="project-grid">
+        <article class="project">
+          <div class="project__signal project__signal--red"></div>
+          <div class="project-meta"><span class="status">In development</span></div>
+          <h3>Nullsecond</h3>
+          <p>A new game project in active development. More details will be shared as the direction solidifies.</p>
+        </article>
+        <article class="project">
+          <div class="project__signal project__signal--cyan"></div>
+          <div class="project-meta"><span class="status">In development</span></div>
+          <h3>Neon AI</h3>
+          <p>A new game project in development. More details will be shared when the project is ready to be shown.</p>
+        </article>
+        <article class="project">
+          <div class="project__signal project__signal--gold"></div>
+          <div class="project-meta"><span class="status">Planned for Steam</span></div>
+          <h3>Strategy / Tower Defense</h3>
+          <p>A PC strategy project planned around tower-defense systems. Currently in early planning.</p>
+        </article>
       </div>
     </section>
 
-    <section class="content">
-      <h2>About</h2>
-      <p>Tunnelwave is a fast first-person arcade game built for short, replayable runs. Tap to rise, release to fall, and thread through the tunnel as speed and risk climb.</p>
-      <p>Optional 2X routes trigger hyperdrive and permanently raise the stakes for the rest of the run.</p>
+    <section class="section section--portfolio" id="portfolio">
+      <div class="section-heading">
+        <p class="eyebrow">Portfolio</p>
+        <h2>Games, systems, and applied AI</h2>
+      </div>
 
-      <h2>Safety</h2>
-      <p>Tunnelwave contains bright neon visuals, rapid motion, screen rotation, and flashing light effects. Stop playing if you feel unwell, dizzy, disoriented, or notice any seizure-like symptoms.</p>
+      <article class="software-project">
+        <div>
+          <p class="project-kicker">Software project</p>
+          <h3>AI Assistant</h3>
+        </div>
+        <p>A full-stack assistant project combining local and cloud AI models with a modern web interface and containerized backend services.</p>
+        <ul class="fact-list" aria-label="AI Assistant technologies">
+          <li>Python</li>
+          <li>React</li>
+          <li>FastAPI</li>
+          <li>Docker</li>
+          <li>Linux</li>
+          <li>OpenAI API</li>
+          <li>OpenRouter</li>
+          <li>Ollama</li>
+        </ul>
+      </article>
+
+      <div class="capability-grid">
+        <section>
+          <h3>Game development</h3>
+          <p>Unreal Engine, Unity, Blueprint Visual Scripting, C#, C++</p>
+        </section>
+        <section>
+          <h3>Software and AI</h3>
+          <p>Python, JavaScript, React, Codex, Claude, ChatGPT, OpenAI API, OpenRouter, Ollama</p>
+        </section>
+        <section>
+          <h3>Delivery</h3>
+          <p>Git, Docker, Linux, Azure, Android, Google Play</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="section section--about" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>Independent by design</h2>
+      </div>
+      <div class="about-copy">
+        <p>BattouGames is an independent studio focused on building complete, playable ideas and the technology behind them.</p>
+        <p>The work spans game design, programming, procedural content, Android publishing, full-stack software, and practical AI integration.</p>
+      </div>
+    </section>
+
+    <section class="contact-band" id="contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Let&apos;s build something worth playing.</h2>
+      </div>
+      <div class="contact-actions">
+        <a class="button button--primary" href="mailto:battougames@gmail.com">battougames@gmail.com</a>
+        <a class="button button--secondary" href="https://github.com/battousaisama-dev">GitHub profile</a>
+      </div>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <span>&copy; 2026 BattouGames</span>
+    <nav aria-label="Legal and support">
+      <a href="privacy.html">Privacy</a>
+      <a href="support.html">Support</a>
+      <a href="data-deletion.html">Data Deletion</a>
+    </nav>
+  </footer>
 </body>
 </html>
