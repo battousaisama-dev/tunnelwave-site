@@ -469,6 +469,28 @@ h1 {
   font-size: 0.86rem;
 }
 
+.footer-branding {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.pixelpicked-badge {
+  display: inline-flex;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.pixelpicked-badge:hover {
+  opacity: 1;
+}
+
+.pixelpicked-badge img {
+  width: 250px;
+  height: 54px;
+}
+
 .site-footer nav {
   display: flex;
   gap: 20px;
